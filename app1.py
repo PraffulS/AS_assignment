@@ -16,7 +16,7 @@ asecret="r6iXNyXEVKtGe8qlu3nrtQHtEibv0UDfAncxNkMQe5RKk"
 auth = tweepy.OAuthHandler(ckey, csecret)
 auth.set_access_token(atoken, asecret)
 api = tweepy.API(auth)
-list_of_extra_words = ['the','a', 'i', 'to', 'my', 'in', 'an','as','if', 'of', 'is','are','they', 'this', 'that', 'u', 'you', 'were','was','has','have', 'or','and','by','because', '_vulpix', '__', 'when','which','what','why','how', 'so', 'me', 'for', 'on', 'it', 'he', 'she', 'with', 'but', 'at', 'our', 'from', 'your', 'be', 'been', 'being', 'all', 'not', 'dont', 'do', 'does', 'about', 'we', 'us']
+list_of_extra_words = ['the','a', 'i', ,'yes', 'no', 'very', 'after', 'to', 'my', 'in', 'an','as','if', 'of', 'is','are','they', 'this', 'that', 'u', 'you', 'were','was','has','have', 'or','and','by','because', '_vulpix', '__', 'when','which','what','why','how', 'so', 'me', 'for', 'on', 'it', 'he', 'she', 'with', 'but', 'at', 'our', 'from', 'your', 'be', 'been', 'being', 'all', 'not', 'dont', 'do', 'does', 'about', 'we', 'us']
 cnt = 0
 
 def unshorten_url(url):
